@@ -9,12 +9,19 @@ const Secondcounter = (props) => {
     const decenas = Math.floor(numero / 10) % 10;
     const centenas = Math.floor(numero / 100) % 10;
     const miles = Math.floor(numero / 1000) % 10;
-    const milliars = Math.floor(numero / 10000) % 10;
+    const decenasmil = Math.floor(numero / 10000) % 10;
+    const centenasmil = Math.floor(numero / 100000) %10;
     
     return (
       <div>
         <Digitcard>
-        {milliars}
+        <i class="fa-solid fa-stopwatch"></i>
+        </Digitcard>
+        <Digitcard>
+        {centenasmil}
+        </Digitcard>
+        <Digitcard>
+        {decenasmil}
         </Digitcard>
         <Digitcard>
         {miles}

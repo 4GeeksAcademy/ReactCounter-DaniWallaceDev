@@ -2,11 +2,11 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 60px; 
-    height: 100px; 
+    width: 150px; 
+    height: 220px; 
     margin: 5px;
-    background-color: #f0f0f0; 
-    border: 1px solid #ddd; 
-    border-radius: 10px; 
+    background: radial-gradient(lightgrey 1%, #535353);; 
+    border: 2px solid #000000; 
+    border-radius: 20px; 
     font-size: 2em; 
   }
